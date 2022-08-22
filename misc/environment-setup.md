@@ -5,8 +5,6 @@ In this tutorial, you will be taken through the necessary steps to setup your ma
 2. A C++ IDE
 3. A Git / Github account
 
-At the end of this assignment, you will have built, run and submitted a working C++ program!
-
 **If you run into any problems, ensure that you communicate with your professor as soon as possible to ensure ample time to get it corrected and fixed**
 
 ## Part 1 - The C++ Compiler / CLion Setup 💻
