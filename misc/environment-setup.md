@@ -17,10 +17,10 @@ Luckily, CLion takes care of most of this for us!
 Follow the instructions below based on your operating system of your laptop or personal computer that you will be using for this class. 
 
 ### Linux / MacOS
-Follow the instructions [here]() 
+Follow the instructions [here](MacOS.md) 
 
 ### Windows OS
-Follow the instructions [here]() 
+Follow the instructions [here](Windows.md) 
 
 ## Part 2 - Git / Github Setup
 Git is a distributed Version Control System (VCS), which means it is a useful tool for easily tracking changes to your code, collaborating, and sharing. With Git you can track the changes you make to your project so you always have a record of what you’ve worked on and can easily revert back to an older version if need be. It also makes working with others easier—groups of people can work together on the same project and merge their changes into one final source!
