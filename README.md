@@ -1,10 +1,10 @@
-# lecture-materials
+# Lecture Materials
 All lecture materials for CS 1342 Fall 2022 Term
 
 ## Environment Setup
 To setup your environment for CS 1342 follow these instructions: [Setup](misc/environment-setup.md)
 
-### Sample Code
+## Sample Code
 
 You will find the following under the sample code directory.
 
