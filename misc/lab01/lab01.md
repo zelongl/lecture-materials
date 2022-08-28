@@ -17,7 +17,7 @@ be repeating the steps you completed in this lab.
 ![alt text](images/image1.png "Invite")
 
 
-2. This will take you to a page that looks like this: 
+2. This will take you to a page that looks like this. **Make sure to select your name from the list to continue** : 
 
 ![alt text](images/image2.png "Invite")
 
