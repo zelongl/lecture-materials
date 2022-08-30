@@ -3,11 +3,18 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
   string fullName;
+  int age;
+  cout << "Enter your age: ";
+  cin >> age;
+
+  cin.ignore();
+  cin.clear();
 
   cout << "Please Enter Full Name: " << endl;
-  getline(cin, fullName);
+  getline(cin, fullName); // \n
 
   cout << fullName << endl;
 
