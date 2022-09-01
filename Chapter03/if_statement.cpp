@@ -40,7 +40,7 @@ int main()
             cout << "I-" << highway_number << " is auxilary, ";
 
             int primary_highway_number = highway_number % 100;
-            cout << "serving I-" << primary_highway_number << ",";
+            cout << "serving I-" << primary_highway_number << ", ";
 
             if (highway_number % 2 == 0)
             {
@@ -52,8 +52,4 @@ int main()
             }
         }
     }
-
-    /**
-     * Code here
-     */
 }
