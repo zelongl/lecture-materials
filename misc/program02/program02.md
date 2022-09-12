@@ -35,7 +35,7 @@ Plaintext:   ABCDEFGHIJKLMOPQRSTUVWXYZ
 Ciphertext:  DEFGHIJKLMOPQRSTUVWXYZABC
 ```
 
-where we can take a letter, `F`  and shift it **3** letters to the right in the alphabet, which means that `F` becomes I in ciphertext (the encrypted message).
+where we can take a letter, `F`  and shift it **3** letters to the right in the alphabet, which means that `F` becomes `I` in ciphertext (the encrypted message).
 
 In this program, we are going to take that one step further, by using letters of a **key** to describe how
 we rotate the characters (number of shifts to perform) in the plaintext message. For instance, providing the **key** `ABC` and the plaintext message `THE SECRET LIES WITH CHARLOTTE` we would encrypt to yield the following ciphertext:
@@ -53,7 +53,7 @@ The more complex the **key**, the more secure your message will become!
 
 ### **Part 2 - Decryption**
 Decrypting a message involves the use of the same **key** that was used to encrypt the message. We
-simply take that **key** and use it to shift each letter of ciphertext n times to the left, where n is the
+simply take that **key** and use it to shift each letter of ciphertext `n` times to the left, where `n` is the
 rotation amount of each character of the **key**.
 
 So for instance, given the encrypted message below and where **key = ABC**, we can decrypt
@@ -70,15 +70,17 @@ Plaintext: ATTACK AT DAWN
 You are to create a program, that allows a user to encrypt or decrypt messages using the algorithm
 explained above. Your program must begin by displaying the following options to the user:
 
+```
 1. Encrypt Message
 2. Decrypt Message
 3. Quit
+```
 
 If a user selects **option 1**, your program should prompt the user to enter a **key**, then use that
 **key** to encrypt a custom message entered via the keyboard.
 
 
-If a user selects **option 2** ,you will first prompt the user to enter a **key** value, then prompt the user to enter the ciphertext to decrypt.
+If a user selects **option 2**, you will first prompt the user to enter a **key** value, then prompt the user to enter the ciphertext to decrypt.
 
 Your program should display the **key**, the plaintext and ciphertext as the output of each option.
 
