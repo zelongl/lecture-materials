@@ -16,6 +16,18 @@ int main()
     getline(cin, name);
 
     // find by name;
+    int index{0};
+
+    for (int i = 0; i < names.size(); i++)
+    {
+        if (names.at(i) == name)
+        {
+            index = i;
+        }
+    }
+
+    string phone_number = phone_numbers.at(index);
+    cout << name << ": " << phone_number << endl;
 
     return 0;
 }
