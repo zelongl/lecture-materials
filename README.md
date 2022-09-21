@@ -12,6 +12,8 @@ You will find the following under the sample code directory.
 2. `Chapter02/` - Variables, Types, Operators
 3. `Chapter03&04/` - Branches and Loops
 4. `Chapter05/` - Functions
+4. `Chapter06/` - STL Vectors
+4. `Chapter07/` - Streams
 
 
 ### Miscellaneous
