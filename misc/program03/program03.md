@@ -9,10 +9,10 @@ For this program you are given 2 input files: `Netherlands.csv` and `Italy.csv`.
 **Netherlands.csv**
 ```
 Driver,Car,Car#,Time
-Max Verstappen,Red Bull Racing RBPT,96.427
-George Russell,Mercedes,96.834
-Charles Leclerc,Ferrari,97.519
-Lewis Hamilton,Mercedes,97.734
+Max Verstappen,Red Bull Racing RBPT,1,96.427
+George Russell,Mercedes,63,96.834
+Charles Leclerc,Ferrari,16,97.519
+Lewis Hamilton,Mercedes,44,97.734
 ...
 ```
 
@@ -56,10 +56,10 @@ After announcing the winners, write all the data stored in both vectors from bot
 **Example Output (Note numbers may be different in your actual program)**
 ```
 Driver,Car,Car#,Netherlands,Italy,Total
-Max Verstappen,Red Bull Racing RBPT,96.427,81.27,177.447
-George Russell,Mercedes,96.834,86.23,183.064
-Charles Leclerc,Ferrari,97.519,90.000,187.519
-Lewis Hamilton,Mercedes,97.734,80.27,178.004
+Max Verstappen,Red Bull Racing RBPT,1,96.427,81.27,177.447
+George Russell,Mercedes,63,96.834,86.23,183.064
+Charles Leclerc,Ferrari,16,97.519,90.000,187.519
+Lewis Hamilton,Mercedes,44,97.734,80.27,178.004
 ```
 
 ## Grading Rubric
