@@ -13,7 +13,7 @@ int main()
     cout << "Enter a sentence: ";
     getline(cin, myString);
 
-    // "The red fox jumped over the yellow dog"
+    // "The quick brown fox jumped over the lazy dog"
     int totalWords = getWordCount(myString);
     cout << "\nNumber of words: " << totalWords << endl;
 
