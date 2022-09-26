@@ -1,0 +1,80 @@
+# Exam 1 Review
+
+## Overview
+- Chapters 1 - 6
+- Multiple Choice True / false section
+- Free Response section
+- No electronics
+- 1 3x5 handwritten notecard allowed for notes (front and back)
+- Have full class time to complete exam
+
+## Review
+
+- Chapter 1
+  - Parts of a C++ Program
+  - How a C++ Program is compiled
+  - Some brief history
+- Chapter 2
+  - Variables
+    - Memory Diagramming 
+    - `const` keyword
+    - variables vs literals
+  - Data Types
+    - Primitive Data Types
+    - Non-Primitive (classes / objects)
+        - Strings
+    - Built-in c-arrays
+    - c-strings
+      - Know how to draw a c-string in memory
+      - Capacity vs Size
+      - null character
+    - Casting with `static_cast`
+  - Operators
+    - Math operators (+,-,%,/)
+    - Modulo operator (%)
+    - cmath library functions
+    - the `rand()` function 
+- Chapter 3
+  - if statements
+  - if-else
+  - switch statements
+  - misc
+    - break
+    - continue
+- Chapter 4
+  - for loops
+  - while loops
+  - do-while loops
+  - common algorithms (with arrays or vectors)
+    - Find max 
+    - Find min
+    - Find Average
+    - Reverse c-string or array / vector
+- Chapter 5
+  - Function basics
+    - Why functions?
+    - function declaration / prototype
+    - function definition
+  - Parameters vs Arguments
+  - Return types
+  - The Call Stack
+    - Stack Frames and how they work in a program setting
+    - `main` is always first
+  - Pass by Value
+  - Pass by Reference
+  - Reference Variables (aliases)
+  - Passing built-in c-arrays
+  - Passing Objects
+- Chapter 6
+  - Vectors
+    - declaring vectors
+    - `push_back` function
+    - accessing elements of vector
+    - iterating through vectors
+        - normal for-loop with counter
+        - range-based for loops
+    - `size()` of vectors
+    - Why use vectors over arrays?
+  - 2D Vectors
+    - how to loop through 2D vector
+    - might be good to review the tic-tac-toe game
