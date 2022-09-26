@@ -46,8 +46,8 @@ Calculating Times...
 
 Announcing the Winners!
 Netherlands:  Max Verstappen with a time of 96.427 minutes
-Italy:    Lewis Hamilton with a time of 80.27 minutes
-Total:  Max Verstappen with a total time of 177.447 minutes
+Italy:        Lewis Hamilton with a time of 80.27 minutes
+Total:        Max Verstappen with a time of 177.447 minutes
 ```
 
 ## Output File
