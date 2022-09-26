@@ -14,7 +14,7 @@ int main()
     getline(cin, myString);
 
     // "The red fox jumped over the yellow dog"
-    int totalWords = wordCount(myString);
+    int totalWords = getWordCount(myString);
     cout << "\nNumber of words: " << totalWords << endl;
 
     return 0;
@@ -23,6 +23,14 @@ int main()
 int getWordCount(string str)
 {
     // Implement using string stream
+    istringstream in_stream(str); // "     "
+    string word;
+    int count{0};
 
-    return 0;
+    while (in_stream >> word)
+    {
+        count++;
+    }
+
+    return count;
 }
