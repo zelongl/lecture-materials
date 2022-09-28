@@ -4,7 +4,6 @@
 using namespace std;
 
 void printBoard(const vector<vector<char>> &board);
-
 char getWinner(const vector<vector<char>> &board);
 
 int main()
@@ -75,7 +74,15 @@ char getWinner(const vector<vector<char>> &board)
     }
 
     // determine if winner in each column
+    for (int i = 0; i < 3; i++)
+    {
+        if (board.at(0).at(i) != '-' && board.at(0).at(i) == board.at(1).at(i) && board.at(2).at(i) == board.at(1).at(i))
+        {
+            return board.at(0).at(i);
+        }
+    }
 
     // determine if winner in each diagonal
+
     return ' ';
 }
