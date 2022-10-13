@@ -16,7 +16,7 @@ int main()
 
 int linear_search(vector<int> &nums, int key)
 {
-    for (int i = 0; i < nums.size(); i++)
+    for (int i = 0; i < nums.size(); i++) // 33,000 || 1
     {
         if (key == nums.at(i))
         {
