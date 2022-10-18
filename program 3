@@ -1,0 +1,95 @@
+#include <iostream>
+#include <vector>
+#include <sstream>
+#include <fstream>
+#include <string>
+
+
+using namespace std;
+
+int main() {
+    vector<vector<string>> Info;
+    vector<vector<double>> Times;
+
+
+    ifstream file("../Netherlands.csv");
+   file.open("../Netherlands.csv");
+
+    if (!file.is_open()){
+        cout << "cant open, something went wrong" << endl;
+        return 0;
+    }
+
+    string line;
+    while (getline(file, line))
+    {
+        string driversName;
+        string CarName;
+        string CarNumber;
+
+        istringstream lineSS(line);
+
+        getline(lineSS, driversName, ',');
+        getline(lineSS, CarName, ',');
+        getline(lineSS, CarNumber);
+
+
+        vector<string> row;
+        row.push_back(driversName);
+        row.push_back(CarName);
+
+
+    }
+    file.close();
+
+
+
+    return 0;
+}#include <iostream>
+#include <vector>
+#include <sstream>
+#include <fstream>
+#include <string>
+
+
+using namespace std;
+
+int main() {
+    vector<vector<string>> Info;
+    vector<vector<double>> Times;
+
+
+    ifstream file("../Netherlands.csv");
+   file.open("../Netherlands.csv");
+
+    if (!file.is_open()){
+        cout << "cant open, something went wrong" << endl;
+        return 0;
+    }
+
+    string line;
+    while (getline(file, line))
+    {
+        string driversName;
+        string CarName;
+        string CarNumber;
+
+        istringstream lineSS(line);
+
+        getline(lineSS, driversName, ',');
+        getline(lineSS, CarName, ',');
+        getline(lineSS, CarNumber);
+
+
+        vector<string> row;
+        row.push_back(driversName);
+        row.push_back(CarName);
+
+
+    }
+    file.close();
+
+
+
+    return 0;
+}
